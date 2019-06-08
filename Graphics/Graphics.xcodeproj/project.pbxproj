@@ -13,6 +13,8 @@
 		90001B9D22AC43E000185358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90001B9C22AC43E000185358 /* Assets.xcassets */; };
 		90001BA022AC43E000185358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90001B9E22AC43E000185358 /* LaunchScreen.storyboard */; };
 		90001BAB22AC43E000185358 /* GraphicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90001BAA22AC43E000185358 /* GraphicsTests.swift */; };
+		905D94D122AC44F600BE4CA2 /* TelegramJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D94D022AC44F600BE4CA2 /* TelegramJsonParser.swift */; };
+		905D94D522AC453F00BE4CA2 /* chart_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 905D94D422AC453F00BE4CA2 /* chart_data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		90001BA622AC43E000185358 /* GraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90001BAA22AC43E000185358 /* GraphicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsTests.swift; sourceTree = "<group>"; };
 		90001BAC22AC43E000185358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905D94D022AC44F600BE4CA2 /* TelegramJsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramJsonParser.swift; sourceTree = "<group>"; };
+		905D94D422AC453F00BE4CA2 /* chart_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chart_data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		90001B9422AC43DD00185358 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				905D94CF22AC44CA00BE4CA2 /* JSONParser */,
 				90001B9522AC43DD00185358 /* AppDelegate.swift */,
 				90001B9722AC43DD00185358 /* ViewController.swift */,
 				90001B9922AC43DD00185358 /* Main.storyboard */,
@@ -94,6 +99,15 @@
 				90001BAC22AC43E000185358 /* Info.plist */,
 			);
 			path = GraphicsTests;
+			sourceTree = "<group>";
+		};
+		905D94CF22AC44CA00BE4CA2 /* JSONParser */ = {
+			isa = PBXGroup;
+			children = (
+				905D94D422AC453F00BE4CA2 /* chart_data.json */,
+				905D94D022AC44F600BE4CA2 /* TelegramJsonParser.swift */,
+			);
+			path = JSONParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +193,7 @@
 			files = (
 				90001BA022AC43E000185358 /* LaunchScreen.storyboard in Resources */,
 				90001B9D22AC43E000185358 /* Assets.xcassets in Resources */,
+				905D94D522AC453F00BE4CA2 /* chart_data.json in Resources */,
 				90001B9B22AC43DD00185358 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,6 +214,7 @@
 			files = (
 				90001B9822AC43DD00185358 /* ViewController.swift in Sources */,
 				90001B9622AC43DD00185358 /* AppDelegate.swift in Sources */,
+				905D94D122AC44F600BE4CA2 /* TelegramJsonParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
