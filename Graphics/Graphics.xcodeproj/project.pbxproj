@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		90001B9622AC43DD00185358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90001B9522AC43DD00185358 /* AppDelegate.swift */; };
 		90001B9822AC43DD00185358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90001B9722AC43DD00185358 /* ViewController.swift */; };
-		90001B9B22AC43DD00185358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90001B9922AC43DD00185358 /* Main.storyboard */; };
 		90001B9D22AC43E000185358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90001B9C22AC43E000185358 /* Assets.xcassets */; };
 		90001BA022AC43E000185358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90001B9E22AC43E000185358 /* LaunchScreen.storyboard */; };
 		90001BAB22AC43E000185358 /* GraphicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90001BAA22AC43E000185358 /* GraphicsTests.swift */; };
-		905D94D122AC44F600BE4CA2 /* TelegramJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905D94D022AC44F600BE4CA2 /* TelegramJsonParser.swift */; };
-		905D94D522AC453F00BE4CA2 /* chart_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 905D94D422AC453F00BE4CA2 /* chart_data.json */; };
+		9051FE9122D2504600A94B61 /* StupidJsonParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051FE9022D2504600A94B61 /* StupidJsonParserTest.swift */; };
+		9051FE9922D250A000A94B61 /* GraphLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051FE9622D250A000A94B61 /* GraphLine.swift */; };
+		9051FE9A22D250A000A94B61 /* StupidJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051FE9722D250A000A94B61 /* StupidJsonParser.swift */; };
+		9051FE9B22D250A000A94B61 /* Graphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051FE9822D250A000A94B61 /* Graphic.swift */; };
+		9051FEA022D250CA00A94B61 /* GraphicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051FE9D22D250CA00A94B61 /* GraphicViewController.swift */; };
+		9051FEA122D250CA00A94B61 /* LegendTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051FE9E22D250CA00A94B61 /* LegendTableController.swift */; };
+		9051FEA222D250CA00A94B61 /* LegendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051FE9F22D250CA00A94B61 /* LegendTableViewCell.swift */; };
+		9051FEA522D250E600A94B61 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9051FEA422D250E600A94B61 /* GraphView.swift */; };
+		9051FEA722D2521C00A94B61 /* chart_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9051FEA622D2521C00A94B61 /* chart_data.json */; };
+		9051FEA922D2525D00A94B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9051FEA822D2525D00A94B61 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +38,22 @@
 		90001B9222AC43DD00185358 /* Graphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90001B9522AC43DD00185358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90001B9722AC43DD00185358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		90001B9A22AC43DD00185358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90001B9C22AC43E000185358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90001B9F22AC43E000185358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90001BA122AC43E000185358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90001BA622AC43E000185358 /* GraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90001BAA22AC43E000185358 /* GraphicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsTests.swift; sourceTree = "<group>"; };
 		90001BAC22AC43E000185358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		905D94D022AC44F600BE4CA2 /* TelegramJsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramJsonParser.swift; sourceTree = "<group>"; };
-		905D94D422AC453F00BE4CA2 /* chart_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chart_data.json; sourceTree = "<group>"; };
+		9051FE9022D2504600A94B61 /* StupidJsonParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StupidJsonParserTest.swift; sourceTree = "<group>"; };
+		9051FE9622D250A000A94B61 /* GraphLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphLine.swift; sourceTree = "<group>"; };
+		9051FE9722D250A000A94B61 /* StupidJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StupidJsonParser.swift; sourceTree = "<group>"; };
+		9051FE9822D250A000A94B61 /* Graphic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graphic.swift; sourceTree = "<group>"; };
+		9051FE9D22D250CA00A94B61 /* GraphicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphicViewController.swift; sourceTree = "<group>"; };
+		9051FE9E22D250CA00A94B61 /* LegendTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegendTableController.swift; sourceTree = "<group>"; };
+		9051FE9F22D250CA00A94B61 /* LegendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegendTableViewCell.swift; sourceTree = "<group>"; };
+		9051FEA422D250E600A94B61 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		9051FEA622D2521C00A94B61 /* chart_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chart_data.json; sourceTree = "<group>"; };
+		9051FEA822D2525D00A94B61 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +95,13 @@
 		90001B9422AC43DD00185358 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				905D94CF22AC44CA00BE4CA2 /* JSONParser */,
+				9051FEA622D2521C00A94B61 /* chart_data.json */,
+				9051FEA322D250D700A94B61 /* GraphView */,
+				9051FE9C22D250BD00A94B61 /* GraphicScreen */,
+				9051FE9522D2509200A94B61 /* BLL */,
 				90001B9522AC43DD00185358 /* AppDelegate.swift */,
 				90001B9722AC43DD00185358 /* ViewController.swift */,
-				90001B9922AC43DD00185358 /* Main.storyboard */,
+				9051FEA822D2525D00A94B61 /* Main.storyboard */,
 				90001B9C22AC43E000185358 /* Assets.xcassets */,
 				90001B9E22AC43E000185358 /* LaunchScreen.storyboard */,
 				90001BA122AC43E000185358 /* Info.plist */,
@@ -95,19 +112,39 @@
 		90001BA922AC43E000185358 /* GraphicsTests */ = {
 			isa = PBXGroup;
 			children = (
+				9051FE9022D2504600A94B61 /* StupidJsonParserTest.swift */,
 				90001BAA22AC43E000185358 /* GraphicsTests.swift */,
 				90001BAC22AC43E000185358 /* Info.plist */,
 			);
 			path = GraphicsTests;
 			sourceTree = "<group>";
 		};
-		905D94CF22AC44CA00BE4CA2 /* JSONParser */ = {
+		9051FE9522D2509200A94B61 /* BLL */ = {
 			isa = PBXGroup;
 			children = (
-				905D94D422AC453F00BE4CA2 /* chart_data.json */,
-				905D94D022AC44F600BE4CA2 /* TelegramJsonParser.swift */,
+				9051FE9822D250A000A94B61 /* Graphic.swift */,
+				9051FE9622D250A000A94B61 /* GraphLine.swift */,
+				9051FE9722D250A000A94B61 /* StupidJsonParser.swift */,
 			);
-			path = JSONParser;
+			path = BLL;
+			sourceTree = "<group>";
+		};
+		9051FE9C22D250BD00A94B61 /* GraphicScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9051FE9D22D250CA00A94B61 /* GraphicViewController.swift */,
+				9051FE9E22D250CA00A94B61 /* LegendTableController.swift */,
+				9051FE9F22D250CA00A94B61 /* LegendTableViewCell.swift */,
+			);
+			path = GraphicScreen;
+			sourceTree = "<group>";
+		};
+		9051FEA322D250D700A94B61 /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				9051FEA422D250E600A94B61 /* GraphView.swift */,
+			);
+			path = GraphView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90001BA022AC43E000185358 /* LaunchScreen.storyboard in Resources */,
+				9051FEA922D2525D00A94B61 /* Main.storyboard in Resources */,
 				90001B9D22AC43E000185358 /* Assets.xcassets in Resources */,
-				905D94D522AC453F00BE4CA2 /* chart_data.json in Resources */,
-				90001B9B22AC43DD00185358 /* Main.storyboard in Resources */,
+				9051FEA722D2521C00A94B61 /* chart_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +250,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				90001B9822AC43DD00185358 /* ViewController.swift in Sources */,
+				9051FEA022D250CA00A94B61 /* GraphicViewController.swift in Sources */,
+				9051FEA522D250E600A94B61 /* GraphView.swift in Sources */,
+				9051FEA122D250CA00A94B61 /* LegendTableController.swift in Sources */,
+				9051FE9A22D250A000A94B61 /* StupidJsonParser.swift in Sources */,
+				9051FE9B22D250A000A94B61 /* Graphic.swift in Sources */,
+				9051FE9922D250A000A94B61 /* GraphLine.swift in Sources */,
+				9051FEA222D250CA00A94B61 /* LegendTableViewCell.swift in Sources */,
 				90001B9622AC43DD00185358 /* AppDelegate.swift in Sources */,
-				905D94D122AC44F600BE4CA2 /* TelegramJsonParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90001BAB22AC43E000185358 /* GraphicsTests.swift in Sources */,
+				9051FE9122D2504600A94B61 /* StupidJsonParserTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,14 +281,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		90001B9922AC43DD00185358 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90001B9A22AC43DD00185358 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90001B9E22AC43E000185358 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
